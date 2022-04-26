@@ -4,7 +4,7 @@
 #
 Name     : pypi-moreorless
 Version  : 0.4.0
-Release  : 7
+Release  : 8
 URL      : https://files.pythonhosted.org/packages/c5/5d/c8ed33403f62a2f755905c8d2d36b71e3fc32588deeb53ad1206edbb067a/moreorless-0.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c5/5d/c8ed33403f62a2f755905c8d2d36b71e3fc32588deeb53ad1206edbb067a/moreorless-0.4.0.tar.gz
 Summary  : Python diff wrapper
@@ -14,9 +14,6 @@ Requires: pypi-moreorless-license = %{version}-%{release}
 Requires: pypi-moreorless-python = %{version}-%{release}
 Requires: pypi-moreorless-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: moreorless
-Provides: moreorless-python
-Provides: moreorless-python3
 BuildRequires : pypi(click)
 
 %description
@@ -59,7 +56,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641456208
+export SOURCE_DATE_EPOCH=1651015512
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
