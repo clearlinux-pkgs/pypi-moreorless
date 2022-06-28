@@ -4,7 +4,7 @@
 #
 Name     : pypi-moreorless
 Version  : 0.4.0
-Release  : 10
+Release  : 11
 URL      : https://files.pythonhosted.org/packages/c5/5d/c8ed33403f62a2f755905c8d2d36b71e3fc32588deeb53ad1206edbb067a/moreorless-0.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c5/5d/c8ed33403f62a2f755905c8d2d36b71e3fc32588deeb53ad1206edbb067a/moreorless-0.4.0.tar.gz
 Summary  : Python diff wrapper
@@ -59,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656389093
+export SOURCE_DATE_EPOCH=1656393500
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
